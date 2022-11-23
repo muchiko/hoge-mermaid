@@ -2,6 +2,8 @@
 
 ```mermaid
     gitGraph
+      branch dev
+      checkout dev
       commit
       branch aaa
       branch bbb
@@ -20,6 +22,6 @@
       checkout aaa
       merge bbb
       merge ccc
-      checkout main
+      checkout dev
       merge aaa
 ```
